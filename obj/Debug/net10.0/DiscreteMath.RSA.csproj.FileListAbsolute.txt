@@ -1,0 +1,14 @@
+/Users/gabrielteramae/DiscreteMath.RSA/bin/Debug/net10.0/DiscreteMath.RSA
+/Users/gabrielteramae/DiscreteMath.RSA/bin/Debug/net10.0/DiscreteMath.RSA.deps.json
+/Users/gabrielteramae/DiscreteMath.RSA/bin/Debug/net10.0/DiscreteMath.RSA.runtimeconfig.json
+/Users/gabrielteramae/DiscreteMath.RSA/bin/Debug/net10.0/DiscreteMath.RSA.dll
+/Users/gabrielteramae/DiscreteMath.RSA/bin/Debug/net10.0/DiscreteMath.RSA.pdb
+/Users/gabrielteramae/DiscreteMath.RSA/obj/Debug/net10.0/DiscreteMath.RSA.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gabrielteramae/DiscreteMath.RSA/obj/Debug/net10.0/DiscreteMath.RSA.AssemblyInfoInputs.cache
+/Users/gabrielteramae/DiscreteMath.RSA/obj/Debug/net10.0/DiscreteMath.RSA.AssemblyInfo.cs
+/Users/gabrielteramae/DiscreteMath.RSA/obj/Debug/net10.0/DiscreteMath.RSA.csproj.CoreCompileInputs.cache
+/Users/gabrielteramae/DiscreteMath.RSA/obj/Debug/net10.0/DiscreteMath.RSA.dll
+/Users/gabrielteramae/DiscreteMath.RSA/obj/Debug/net10.0/refint/DiscreteMath.RSA.dll
+/Users/gabrielteramae/DiscreteMath.RSA/obj/Debug/net10.0/DiscreteMath.RSA.pdb
+/Users/gabrielteramae/DiscreteMath.RSA/obj/Debug/net10.0/DiscreteMath.RSA.genruntimeconfig.cache
+/Users/gabrielteramae/DiscreteMath.RSA/obj/Debug/net10.0/ref/DiscreteMath.RSA.dll

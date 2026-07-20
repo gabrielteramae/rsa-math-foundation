@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "DiscreteMath.RSA/1.0.0": {
+        "runtime": {
+          "DiscreteMath.RSA.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DiscreteMath.RSA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
