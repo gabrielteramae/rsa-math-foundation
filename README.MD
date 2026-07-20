@@ -121,3 +121,27 @@ class Program
         return t;
     }
 }
+```
+
+---
+
+## 🚀 Como Executar Localmente
+
+### Pré-requisitos
+* [.NET 8 SDK](https://dotnet.microsoft.com/download) instalado na sua máquina.
+
+### Passos para Execução
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/gabrielteramae/rsa-math-foundation.git](https://github.com/gabrielteramae/rsa-math-foundation.git)
+   cd rsa-math-foundation
+   ```
+
+2. Execute o projeto diretamente pelo terminal:
+   ```bash
+   dotnet run
+   ```
+
+---
+
+© 2026 Gabriel Teramae Chan
