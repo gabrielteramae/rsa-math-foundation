@@ -10,17 +10,16 @@ Uma implementação didática e puramente matemática do algoritmo de criptograf
 
 O algoritmo RSA baseia-se na assimetria matemática de que é fácil multiplicar dois números primos grandes, mas extremamente difícil fatorar o resultado de volta nos dois primos originais.
 
-1. **Escolha dos Primos:** Escolhe-se dois números primos secretos, p e q.
-2. **Módulo (n):** Calcula-se n = p \* q. Esse número é público e define o limite dos nossos blocos numéricos.
-3. **Totiente de Euler (phi):** Calcula-se phi(n) = (p - 1) \* (q - 1). Ele representa a quantidade de números coprimos a n.
-4. **Chave Pública (e):** Escolhe-se um expoente e que seja coprimo com phi(n), ou seja, MDC(e, phi(n)) = 1.
-5. **Chave Privada (d):** Calcula-se o inverso multiplicativo modular de e mod(phi(n)), de forma que:
-   (e \* d) = 1 mod(phi(n))
+1. **Escolha dos Primos:** Escolhe-se dois números primos secretos, $p$ e $q$.
+2. **Módulo ($n$):** Calcula-se $n = p \times q$. Esse número é público e define o limite dos nossos blocos numéricos.
+3. **Totiente de Euler ($\phi$):** Calcula-se $\phi(n) = (p - 1) \times (q - 1)$. Ele representa a quantidade de números coprimos a $n$.
+4. **Chave Pública ($e$):** Escolhe-se um expoente $e$ que seja coprimo com $\phi(n)$, ou seja, $MDC(e, \phi(n)) = 1$.
+5. **Chave Privada ($d$):** Calcula-se o inverso multiplicativo modular de $e \pmod{\phi(n)}$, de forma que:
+   $$(e \times d) \equiv 1 \pmod{\phi(n)}$$
 
 ### Fórmulas de Operação
-
-- **Cifrar:** C = M^e mod n
-- **Decifrar:** M = C^d mod n
+* **Cifrar:** $C = M^e \pmod n$
+* **Decifrar:** $M = C^d \pmod n$
 
 ---
 
@@ -76,7 +75,7 @@ class Program
         List<BigInteger> mensagemCifrada = new List<BigInteger>();
         foreach (char caractere in mensagemOriginal)
         {
-            BigInteger m = (int)caractere;
+            BigInteger m = (int)caractere; 
             BigInteger c = BigInteger.ModPow(m, e, n); // (m^e) % n
             mensagemCifrada.Add(c);
         }
@@ -122,19 +121,3 @@ class Program
         return t;
     }
 }
-```
-
-🚀 Como Executar Localmente
-Pré-requisitos
-.NET 8 SDK instalado na sua máquina.
-
-Passos para Execução
-Clone este repositório:
-
-Bash
-git clone [https://github.com/gabrielteramae/rsa-math-foundation.git](https://github.com/gabrielteramae/rsa-math-foundation.git)
-cd rsa-math-foundation
-Execute o projeto diretamente pelo terminal:
-
-Bash
-dotnet run
