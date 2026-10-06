@@ -1,7 +1,7 @@
 # rsa-math-foundation
 
-![.NET 8.0](https://img.shields.io/badge/.NET-8.0-blueviolet)
-![C#](https://img.shields.io/badge/C%23-12.0-blue)
+![.NET 10.0](https://img.shields.io/badge/.NET-10.0-blueviolet)
+![C#](https://img.shields.io/badge/C%23-14.0-blue)
 ![Cryptography](https://img.shields.io/badge/Criptografia-RSA-orange)
 
 Uma implementação didática e puramente matemática do algoritmo de criptografia assíncrona **RSA** desenvolvida em C#. O projeto demonstra a aplicação prática de conceitos de Álgebra Linear e Matemática Discreta, como números primos, aritmética modular, a Função Totiente de Euler e o Algoritmo de Euclides Estendido.
@@ -128,12 +128,12 @@ class Program
 ## 🚀 Como Executar Localmente
 
 ### Pré-requisitos
-* [.NET 8 SDK](https://dotnet.microsoft.com/download) instalado na sua máquina.
+* [.NET 10 SDK](https://dotnet.microsoft.com/download) instalado na sua máquina.
 
 ### Passos para Execução
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/gabrielteramae/rsa-math-foundation.git](https://github.com/gabrielteramae/rsa-math-foundation.git)
+   git clone https://github.com/gabrielteramae/rsa-math-foundation.git
    cd rsa-math-foundation
    ```
 
